@@ -1,4 +1,4 @@
-#include<ESP32Servo.h>
+//#include<ESP32Servo.h>
 int buzzer = 32;
 const int red = 26,green = 27,ab=25,bb=33;
 void setup() {
@@ -28,14 +28,18 @@ void red2(){
 void green1(){
     digitalWrite(red,LOW);
     digitalWrite(green,HIGH);
-    tone(32,392,500);
+    tone(buzzer,392,500);
     delay(500);
-    tone(32,440,500);
+    tone(buzzer,440,500);
     delay(500);
+    if(digitalRead(bb) == LOW) {
+        digitalWrite(red,HIGH);
+        digitalWrite(green,HIGH);
+        exit(0);
+      }
 }
 void green2(){
-    digitalWrite(red,HIGH);
-    digitalWrite(green,HIGH);
+      
 }
 void loop() {
   if(digitalRead(ab) == LOW){
@@ -57,13 +61,6 @@ void loop() {
       b1:
       green1();
       if(digitalRead(ab) == LOW)goto a;
-      if(digitalRead(bb) == LOW)goto b2;
-    }
-    while(1){
-      b2:
-      green2();
-      if(digitalRead(ab) == LOW)goto a;
-      if(digitalRead(ab) == LOW)goto b1;
     }
   }
 }
