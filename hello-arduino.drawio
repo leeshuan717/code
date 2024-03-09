@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2024-03-09T07:10:13.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mXPT4JwL_UIzhYn5vij5" version="24.0.3" type="github">
+  <diagram name="第 1 页" id="Y2YImY5zaaCmB7ZX9NXx">
+    <mxGraphModel dx="548" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="K1oMJhdUkYDZUtVZaciA-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-5" value="start" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="300" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="K1oMJhdUkYDZUtVZaciA-6" target="K1oMJhdUkYDZUtVZaciA-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-6" value="" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-7" value="output&lt;div&gt;&quot;hello Arduino&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="300" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="K1oMJhdUkYDZUtVZaciA-13" target="K1oMJhdUkYDZUtVZaciA-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-13" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="270" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-15" value="for sum&amp;nbsp;&lt;div&gt;+1+2+...+10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="300" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-16" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=1;arcSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="270" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1oMJhdUkYDZUtVZaciA-18" value="output&lt;div&gt;sum&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="300" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
